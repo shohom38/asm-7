@@ -1,0 +1,30 @@
+* {
+    font-family: 'dotum', '돋움', 'APPLE SD Gothic NEO', sans-serif;
+    font-size: 12px;
+}
+
+.topmenu-wrap > .right-tm > .tm-list-wrap > .tm-list > a > span {
+    font-weight: bold;
+}
+
+.main-menu-wrap {
+    height: 35px;
+}
+
+.mm-bg-left {
+    background: url('../img/mm-bg-left.png') left 0 no-repeat;
+    padding-left: 4px;
+}
+
+.mm-bg-mid {
+    background: url('../img/mm-bg-mid.png') 0 0  repeat-x;
+}
+
+.mm-bg-right {
+    background: url('../img/mm-bg-right.png') right 0 no-repeat;
+    padding-right: 4px;
+}
+
+.h-100 {
+    height: 100%;
+}
