@@ -34,7 +34,54 @@
 .img-box {
     float: left;
     width: 220px;
-    height: 172px;
+    height: 170px;
     border: 1px solid #c8c8c8;
     background-color: #f2f2f2;
+}
+
+#news-hl {
+    margin-bottom: 8px;
+}
+
+#news-hl > a {
+    font-size: 19px;
+    color: #0e68a6;
+}
+
+.sect-1 {
+    margin-bottom: 19px;
+}
+
+.sect-1 > p {
+    color: #999999;
+}
+
+.sect-1-text > span {
+    display: block;
+    color: #cccccc;
+    margin-bottom: 16px;
+}
+
+.sect1-list > a {
+    color: #666666;
+}
+
+.sect-1-text {
+    padding-top: 4px;
+    padding-left: 238px;
+}
+
+.sect-1-text > p {
+    line-height: 18px;
+    margin-bottom: 4px;
+}
+
+.sect1-list {
+    margin-bottom: 7px;
+}
+
+.sect-1::after {
+    display: block;
+    content: "";
+    clear: both;
 }
