@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+#header-wrap {
+    margin-bottom: 54px;
+}
+
 .header-pd-wrap {
     padding: 0 86px 0 94px;
 }
@@ -111,11 +115,21 @@
     padding-left: 36px;
 }
 
-.mm-list {
+.mm-list-wrap-over {
+    display: none;
+    position: absolute;
+    top: 8px;
+    padding-left: 38px;
+}
+
+.mm-list,
+.mm-list-over {
     float: left;
-    line-height: 35px;
+    line-height: 33px;
     padding-right: 33px;
 }
+
+
 
 .mm-list > a {
     display: block;
@@ -157,7 +171,8 @@
     box-sizing: border-box;
 }
 
-.mm-list-wrap::after {
+.mm-list-wrap::after,
+.mm-list-wrap-over::after {
     content: "";
     display: block;
     clear: both;
