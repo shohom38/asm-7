@@ -14,7 +14,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 12px;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -40,3 +40,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+input { 
+
+    -webkit-appearance : none;
+    
+    -moz-appearance:none;
+    
+    appearance:none;
+    
+    }
