@@ -115,20 +115,12 @@
     padding-left: 36px;
 }
 
-.mm-list-wrap-over {
-    display: none;
-    position: absolute;
-    top: 8px;
-    padding-left: 38px;
-}
 
-.mm-list,
-.mm-list-over {
+.mm-list {
     float: left;
     line-height: 33px;
     padding-right: 33px;
 }
-
 
 
 .mm-list > a {
@@ -146,6 +138,17 @@
 
 .pr-34 {
     padding-right: 34px;
+}
+
+.short-wt:hover {
+    position: absolute;
+    top: 2px;
+    padding: 0 16px 0 18px;
+    background: url('../img/mm-hover-bg-1.png') center center no-repeat;
+}
+
+.mm-list:hover pr-2 {
+    padding-right: 2px;
 }
 
 .mm-input-btn-wrap {
@@ -171,8 +174,7 @@
     box-sizing: border-box;
 }
 
-.mm-list-wrap::after,
-.mm-list-wrap-over::after {
+.mm-list-wrap::after {
     content: "";
     display: block;
     clear: both;
