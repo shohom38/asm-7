@@ -141,14 +141,31 @@
 }
 
 .short-wt:hover {
-    position: absolute;
+    position: relative;
     top: 2px;
+    left: -18px;
     padding: 0 16px 0 18px;
     background: url('../img/mm-hover-bg-1.png') center center no-repeat;
 }
 
-.mm-list:hover pr-2 {
+.dif-pd {
+    padding: 0 10px 0  11px;
+}
+
+.pr-0:hover {
+    padding-right: 0;
+}
+
+.pr-1:hover {
+    padding-right: 1px;
+}
+
+.pr-2:hover {
     padding-right: 2px;
+}
+
+.pr-7:hover{
+    padding-right: 7px;
 }
 
 .mm-input-btn-wrap {
