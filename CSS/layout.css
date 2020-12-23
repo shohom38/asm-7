@@ -112,14 +112,15 @@
 
 .mm-list-wrap {
     height: 100%;
-    padding-left: 36px;
+    padding-left: 22px;
 }
 
 
 .mm-list {
     float: left;
     line-height: 33px;
-    padding-right: 33px;
+    padding: 0 16px 0 18px;
+    text-align: center;
 }
 
 
@@ -132,40 +133,28 @@
     padding-top: 7px;
 }
 
-.pr-32 {
-    padding-right: 32px;
+.pr-7:hover {
+    padding: 0 10px 0 11px;
 }
 
-.pr-34 {
-    padding-right: 34px;
+.mr-6:hover {
+    margin-right: 6px;
 }
 
-.short-wt:hover {
+.mm-list:hover {
     position: relative;
     top: 2px;
-    left: -18px;
     padding: 0 16px 0 18px;
     background: url('../img/mm-hover-bg-1.png') center center no-repeat;
 }
 
-.dif-pd {
-    padding: 0 10px 0  11px;
+.mm-list:hover  .mm-inner-wrap {
+    display: block;
 }
 
-.pr-0:hover {
-    padding-right: 0;
-}
-
-.pr-1:hover {
-    padding-right: 1px;
-}
-
-.pr-2:hover {
-    padding-right: 2px;
-}
-
-.pr-7:hover{
-    padding-right: 7px;
+.long-wt:hover {
+    background: url('../img/mm-hover-bg-2.png') center center no-repeat;
+    padding: 0 11px;
 }
 
 .mm-input-btn-wrap {
@@ -195,6 +184,21 @@
     content: "";
     display: block;
     clear: both;
+}
+
+.mm-inner-wrap {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 33px;
+    left: -26px;
+    min-width: 920px;
+    font-size: 0;
+    background: url('../img/under-hm.png') center center no-repeat;
+}
+
+.mm-inner-list {
+    display: inline-block;
 }
 
 .contents-wrap {
