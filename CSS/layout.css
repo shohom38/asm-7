@@ -235,5 +235,6 @@
 }
 
 .contents-wrap {
-    padding: 0 86px 0 94px;
+    margin: 0 86px 0 94px;
+    position: relative;
 }
