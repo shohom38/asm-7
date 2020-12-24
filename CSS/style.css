@@ -1,6 +1,7 @@
 * {
     font-family: 'dotum', '돋움', 'APPLE SD Gothic NEO', sans-serif;
     font-size: 12px;
+    box-sizing: border-box;
 }
 
 .topmenu-wrap > .right-tm > .tm-list-wrap > .tm-list > a > span {
@@ -33,9 +34,19 @@
 .img-box {
     float: left;
     width: 220px;
-    height: 170px;
+    height: 171px;
     border: 1px solid #c8c8c8;
     background-color: #f2f2f2;
+}
+
+.img-90x60 {
+    width: 90px;
+    height: 60px;
+}
+
+.img-250x250 {
+    width: 250px;
+    height: 250px;
 }
 
 #news-hl {
@@ -48,7 +59,10 @@
 }
 
 .sect-1 {
-    margin-bottom: 19px;
+    width: 654px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    background: url(../img/content-box/sect1-div.png) left bottom repeat-x;
 }
 
 .sect-1 > p {
@@ -83,4 +97,28 @@
     display: block;
     content: "";
     clear: both;
+}
+
+.sect-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sect-3 {
+    width: 380px;
+    padding-right: 15px;
+}
+
+.news-section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.news-section:not(:last-child) {
+    padding-right: 15px;
+    padding-bottom: 11px;
+    margin-bottom: 10px;
+    background: url('../img/content-box/sect2-div.png') left bottom repeat-x;
 }
