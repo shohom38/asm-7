@@ -343,6 +343,8 @@
 
 .fs-0 {
     font-size: 0;
+    white-space: nowrap;
+    vertical-align: middle;
 }
 
 .no-btn-shape + .no-btn-shape {
