@@ -34,9 +34,14 @@
 .img-box {
     float: left;
     width: 220px;
-    height: 171px;
+    height: 172px;
     border: 1px solid #c8c8c8;
     background-color: #f2f2f2;
+}
+
+.img-box-nb {
+    background: #eeeeee;
+    border: none;
 }
 
 .img-90x60 {
@@ -47,11 +52,22 @@
 .img-250x250 {
     width: 250px;
     height: 250px;
+    margin-bottom: 16px;
 }
 
 .img-88x65 {
     width: 88px;
     height: 65px;
+}
+
+.img-82x76 {
+    float: none;
+    width: 82px;
+    height: 76px;
+}
+
+.wt-81 {
+    width: 81px;
 }
 
 #news-hl {
@@ -65,7 +81,7 @@
 
 .sect-1 {
     width: 654px;
-    padding-bottom: 20px;
+    padding-bottom: 18px;
     margin-bottom: 15px;
     background: url(../img/content-box/sect1-div.png) left bottom repeat-x;
 }
@@ -111,8 +127,8 @@
 }
 
 .sect-3 {
-    width: 380px;
-    padding-right: 15px;
+    width: 379px;
+    padding-right: 14px;
     float: left;
 }
 
@@ -124,6 +140,10 @@
     content: "";
     display: block;
     clear: both;
+}
+
+.news-section {
+    width: 365px;
 }
 
 .news-section:not(:last-child) {
@@ -140,8 +160,12 @@
 }
 
 .sect-4 {
+    position: relative;
+    top: -2px;
     float: left;
     width: 276px;
+    padding-left: 16px;
+    background: url('../img/content-box/sect-div-vtc.png') left top repeat-y;
 }
 
 .sect-4-txt {
@@ -155,6 +179,26 @@
     clear: both;
 }
 
+.siv-container:first-child {
+    margin-bottom: 16px;
+}
+
 .siv-container {
     margin-bottom: 17px;
+}
+
+.bilboard-chart {
+    border: 1px solid #cccccc;
+}
+
+.bilboard-chart > table > caption {
+    display: none;
+}
+
+.no-btn-shape {
+    border: 0;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
 }

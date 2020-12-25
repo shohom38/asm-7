@@ -66,7 +66,7 @@
 
 #logo {
     position: absolute;
-    top: 2px;
+    top: 0;
     left: 0;
 }
 
@@ -159,7 +159,7 @@
 .mm-input-btn-wrap {
     position: absolute;
     top: 6px;
-    right: 9px;
+    right: 10px;
 }
 
 .mm-input-wrap {
@@ -237,4 +237,118 @@
 .contents-wrap {
     margin: 0 86px 0 94px;
     position: relative;
+}
+
+.star-interview {
+    line-height: 7px;
+    padding-bottom: 8px;
+    margin-bottom: 11px;
+    background: url('../img/content-box/siv-div.png') left bottom repeat-x;
+}
+
+.tap-header {
+    position: relative;
+    width: 260px;
+    height: 30px;
+    padding: 12px 0 0 16px;
+    background: url('../img/content-box/tap-header.png') center top no-repeat;
+}
+
+.tap-position {
+    position: absolute;
+    top: 11px;
+    right: 12px;
+}
+
+.tap-body {
+    width: 260px;
+    height: 158px;
+    padding: 18px 17px 0 16px;
+    background: url('../img/content-box/tap-body.png') center top no-repeat;
+}
+
+.tap-body > ul > li  {
+    padding-left: 10px;
+    line-height: 15px;
+    padding-bottom: 10px;
+    background: url('../img/content-box/dot-tap-list.png') left 5px no-repeat;
+}
+
+.tap-list:not(:last-child) {
+    background-position-y: 6px;
+}
+
+.tap-list:last-child {
+    padding-bottom: 13px;
+    margin-bottom: 14px;
+}
+
+.tap-list:nth-child(2) {
+    padding-bottom: 9px;
+}
+
+.tap-list-wrap {
+    background: url('../img/content-box/tpv-div.png') left bottom repeat-x;
+}
+
+.img-news-wrap {
+    display: inline-block;
+    width: 81px;
+}
+
+.img-news-wrap:first-child {
+    width: 82px;
+}
+
+.img-news-wrap + .img-news-wrap {
+    margin-left: 7px;
+}
+
+.img-news-wrap > p {
+    margin-top: 6px;
+    text-align: center;
+}
+
+.img-news-wrap > p > a {
+    line-height: 13px;
+}
+
+.tb-p > p {
+    padding-left: 8px;
+}
+
+.tpv-wrap {
+    margin: 0 1px;
+    font-size: 0;
+}
+
+.tpv-pb {
+    padding-bottom: 9px;
+    margin-bottom: 10px;
+}
+
+.sect-2-wrap {
+    width: 250px;
+}
+
+.sect-2-wrap::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.singer {
+    text-align: right;
+}
+
+.fs-0 {
+    font-size: 0;
+}
+
+.no-btn-shape + .no-btn-shape {
+    margin-left: 3px;
+}
+
+.bil-cht-center {
+    text-align: center;
 }
