@@ -187,8 +187,15 @@
     margin-bottom: 17px;
 }
 
+.bilboard-chart-title {
+    padding-left: 4px;
+    margin-bottom: 1px;
+}
+
 .bilboard-chart {
     border: 1px solid #cccccc;
+    padding: 14px 7px 41px 6px;
+    margin-bottom: 16px;
 }
 
 .bilboard-chart > table > caption {
@@ -201,4 +208,29 @@
     outline: none;
     cursor: pointer;
     padding: 0;
+}
+
+.bc-table {
+    width: 100%;
+    font-size: 11px;
+}
+
+.bc-table tr {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.bc-table tr > th {
+    padding: 7px 0 7px 3px;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+.bc-table tr > td {
+    vertical-align: middle;
+}
+
+.con-box {
+    width: 250px;
+    height: 464px;
+    border: 1px solid #cccccc;
 }
