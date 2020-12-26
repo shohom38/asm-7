@@ -1,0 +1,43 @@
+caption {
+    display: none;
+}
+
+table {
+    border: 1px solid #e0e0e0;
+    width: 277px;
+}
+
+table  tr {
+    border: 1px solid #e0e0e0;
+}
+
+table td {
+    border: 1px solid #e0e0e0;
+}
+
+.tb-td {
+    height: 24px;
+    line-height: 24px;
+    padding-left: 14px;
+    font-size: 11px;
+}
+
+.tb-td-wide {
+    height: 45px;
+    line-height: 24px;
+    padding-left: 14px;
+    font-size: 11px;
+}
+
+.top-left-right-b-w {
+    font-size: 11px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 13px;
+    border: 1px solid #ffffff;
+    text-align: left;
+}
+
+thead {
+    background-color: #f3f9f9;
+}
