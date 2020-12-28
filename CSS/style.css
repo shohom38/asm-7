@@ -428,3 +428,7 @@ button {
 .siv-container {
     position: relative;
 }
+
+.song-title > a {
+    font-size: 11px;
+}
