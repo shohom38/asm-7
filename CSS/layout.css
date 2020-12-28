@@ -1,5 +1,5 @@
 .wrap {
-    width: 1100px;
+    width: 920px;
     margin: 0 auto;
 }
 
@@ -8,7 +8,7 @@
 }
 
 .header-pd-wrap {
-    padding: 0 86px 0 94px;
+    width: 920px;
 }
 
 .topmenu-wrap {
@@ -306,12 +306,12 @@
 }
 
 .contents-wrap {
-    margin: 0 86px 8px 94px;
+    width: 920px;
     position: relative;
 }
 
 .bottom-contents-wrap {
-    margin: 0 86px 0 94px;
+    width: 920px;
     position: relative;
     margin-bottom: 20px;
 }
@@ -412,7 +412,7 @@
 
 .img-news-wrap > p > a {
     line-height: 13px;
-    font-size: 10px;
+    font-size: 11px;
     color: #666666;
 }
 
@@ -521,7 +521,7 @@
 
 .tvc-list-wrap {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     line-height: 14px;
     width: 156px;
 }
@@ -651,7 +651,7 @@ caption {
 }
 
 #footer {
-    margin: 0 86px 0 94px;
+    width: 920px;
 }
 
 .ft-header {
