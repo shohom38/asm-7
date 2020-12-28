@@ -268,8 +268,44 @@ button {
     margin-bottom: 16px;
 }
 
-.bilboard-chart > table > caption {
-    display: none;
+.bilboard-chart > ul {
+    margin-bottom: 8px;
+}
+
+.bilboard-chart > ul > li > a {
+    display: inline-block;
+    line-height: 28px;
+    font-size: 0;
+}
+
+.bilboard-chart > ul > li > a > img,
+.bilboard-chart > ul > li > a > span {
+    vertical-align: middle;
+}
+
+.bilboard-chart > ul > li > a span,
+.bilboard-chart > ul > li > a span > strong {
+    font-size: 11px;
+} 
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pr-11 {
+    padding-right: 11px;
+}
+
+.pr-12 {
+    padding-right: 12px;
+}
+
+.pr-22 {
+    padding-right: 22px;
+}
+
+.pr-57 {
+    padding-right: 57px;
 }
 
 .no-btn-shape {
@@ -278,26 +314,6 @@ button {
     outline: none;
     cursor: pointer;
     padding: 0;
-}
-
-.bc-table {
-    width: 100%;
-    font-size: 11px;
-    margin-bottom: 8px;
-}
-
-.bc-table tr {
-    border-bottom: 1px solid #e2e2e2;
-}
-
-.bc-table tr > th {
-    padding: 7px 0 7px 3px;
-    vertical-align: middle;
-    font-size: 0;
-}
-
-.bc-table tr > td {
-    vertical-align: middle;
 }
 
 .btn-container {
