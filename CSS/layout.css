@@ -229,6 +229,7 @@
     width: 174px;
     height: 19px;
     font-size: 0;
+    vertical-align: middle;
     margin-right: 1px;
     border: 1px solid #004e7e;
 }
@@ -408,6 +409,7 @@
 .img-news-wrap > p {
     margin-top: 6px;
     text-align: center;
+    width: 85px;
 }
 
 .img-news-wrap > p > a {
@@ -534,6 +536,7 @@
 
 .tvc-list-wrap > li a {
     font-size: 11px;
+    color: #555555;
 }
 
 .tvc-list-wrap > li {

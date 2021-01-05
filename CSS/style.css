@@ -50,7 +50,6 @@ button {
 
 .img-box > a {
     display: block;
-    width: 100%;
     height: 100%;
 }
 
@@ -137,6 +136,10 @@ button {
     line-height: 20px;
 }
 
+.sect-3-txt > p > a {
+    color: #666666;
+}
+
 .sect-1 {
     width: 654px;
     padding-bottom: 18px;
@@ -144,7 +147,7 @@ button {
     background: url(../img/content-box/sect1-div.png) left bottom repeat-x;
 }
 
-.sect-1 > p {
+.sect-1-text > p > a {
     color: #999999;
 }
 
@@ -237,9 +240,11 @@ button {
     padding-left: 98px;
 }
 
+
 .sect-4-txt > p > a {
     font-size: 11px;
     line-height: 14px;
+    color: #565656;
 }
 
 .news-section-2::after {
@@ -272,10 +277,17 @@ button {
     margin-bottom: 8px;
 }
 
+.bilboard-chart > ul > li {
+    position: relative;
+    padding-left: 3px;
+    background: url('../img/content-box/btm-line-cht.png') left bottom repeat-x;
+}
+
 .bilboard-chart > ul > li > a {
     display: inline-block;
     line-height: 28px;
     font-size: 0;
+    color: #333333;
 }
 
 .bilboard-chart > ul > li > a > img,
@@ -283,10 +295,31 @@ button {
     vertical-align: middle;
 }
 
+.bilboard-chart > ul > li > a > span > span {
+    padding-right: 7px;
+}
+
+.bbc-right-wrap {
+    position: absolute;
+    right: 1px;
+}
+
+.bbc-right-wrap > img {
+    vertical-align: middle;
+}
+
 .bilboard-chart > ul > li > a span,
 .bilboard-chart > ul > li > a span > strong {
     font-size: 11px;
 } 
+
+.bbc-right-wrap > span {
+    color: #98928d;
+}
+
+.pr-9 {
+    padding-right: 9px;
+}
 
 .pr-10 {
     padding-right: 10px;
@@ -300,12 +333,8 @@ button {
     padding-right: 12px;
 }
 
-.pr-22 {
-    padding-right: 22px;
-}
-
-.pr-57 {
-    padding-right: 57px;
+.pr-13 {
+    padding-right: 13px;
 }
 
 .no-btn-shape {
