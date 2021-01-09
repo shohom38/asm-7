@@ -621,6 +621,10 @@
         margin-left: 7px;
     }
 
+    .news-section {
+        width: 100%;
+    }
+
     .tap-header,
     .tap-body {
         width: 260px;
