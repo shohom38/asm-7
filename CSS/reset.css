@@ -50,6 +50,13 @@ input {
     
     -moz-appearance:none;
     
-    appearance:none;
+	appearance:none;
+	
+	font-size: 11px;
+	width: 100%;
+	background: transparent;
+	border: none;
+	padding-left: 3px;
+	outline: none;
     
-    }
+	}

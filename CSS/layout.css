@@ -19,6 +19,14 @@
     position: relative;
 }
 
+input[id="menu-icon"] {
+    display: none;
+}
+
+input[id="search-icon"] {
+    display: none;
+}
+
 .topmenu-wrap > .left-tm {
     float: left;
 }
@@ -244,6 +252,15 @@
     border: 0;
     outline: none;
     box-sizing: border-box;
+}
+
+.search-btn > img {
+    display: none;
+}
+
+#menu-wrap-768,
+.search-area-768-wrap {
+    display: none;
 }
 
 .search-btn {
