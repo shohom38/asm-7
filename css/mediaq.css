@@ -1,4 +1,8 @@
 @media (max-width: 1023px) and (min-width: 768px) {
+    * {
+        font-size: .9rem;
+    }
+
     .wrap {
         width: 100%;
     }
@@ -52,7 +56,7 @@
         width: 100%;
     }
 
-    .search-btn {
+    .search-btn-logo {
         display: block;
         width: 30px;
         position: absolute;
@@ -62,7 +66,7 @@
         cursor: pointer;
     }
 
-    .search-btn > img {
+    .search-btn-logo > img {
         display: block;
         width: 30px;
     }
@@ -143,8 +147,12 @@
         height: 100%;
     }
 
-    input[id="menu-icon"]:checked ~ .contents-wrap {
-        opacity: .3;
+    input[id="menu-icon"]:checked ~ .contents-wrap section {
+        opacity: .2;
+    }
+
+    input[id="search-icon"]:checked ~ .contents-wrap section {
+        opacity: .2;
     }
 
     .ad-bm-list-wrap {
@@ -269,6 +277,11 @@
 }
 
 @media (max-width: 767px) and (min-width: 0px) {
+
+    * {
+        font-size: .9rem;
+    }
+
     .wrap {
         width: 100%;
     }
@@ -323,7 +336,7 @@
         position: relative;
     }
 
-    .search-btn {
+    .search-btn-logo {
         display: block;
         width: 30px;
         position: absolute;
@@ -333,7 +346,7 @@
         cursor: pointer;
     }
 
-    .search-btn > img {
+    .search-btn-logo > img {
         display: block;
         width: 30px;
     }
@@ -396,11 +409,11 @@
     }
 
     input[id="menu-icon"]:checked ~ .contents-wrap section {
-        opacity: .3;
+        opacity: .2;
     }
 
     input[id="search-icon"]:checked ~ .contents-wrap section {
-        opacity: .3;
+        opacity: .2;
     }
 
     .menu-btn span:nth-child(1) {
@@ -521,10 +534,10 @@
         display: block;
         padding: 0 40px 0 10px;
         position: fixed;
-        top: -90px;
+        top: -120px;
         left: 0;
         z-index: 10;
-        height: 150px;
+        height: 180px;
         width: 100%;
         transition: .45s;
         background: #e7e7e7;
@@ -555,6 +568,7 @@
     .sect-1-text {
         padding-left: 0;
         text-align: left;
+        margin-top: 5px;
     }
 
     .sect-3 {
@@ -633,6 +647,10 @@
 
     .br {
         display: none;
+    }
+
+    .ns-last {
+        padding: 0;
     }
 
 }
