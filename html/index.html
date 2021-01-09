@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/layout.css">
-    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/mediaq.css">
     <title>tv-report</title>
 </head>
 <body>
     <div class="topmenu-wrap">
         <div class="left-tm">
-            <span>+ 즐겨찾기</span>
+            <a href="#">
+                <span>+ 즐겨찾기</span>
+            </a>
         </div>
         <div class="right-tm">
             <ul class="tm-list-wrap">
@@ -22,152 +25,201 @@
         </div>
     </div>
     <div class="wrap">
-        <header id="header-wrap">
-            <!--topmenu-end-->
-            <div class="header-pd-wrap">
-                <div class="logo-banner-wrap">
-                    <h1 id="logo">
-                        <a href="#"><img src="../img/asm7-logo.png" alt="TV-REPORT 방송전문미디어포탈"></a>
-                    </h1>
-                    <ul class="bm-list-wrap">
-                        <li class="bm-list"><a href="#"><img src="../img/hm-drama.png" alt="드라마"></a></li>
-                        <li class="bm-list bm-pl-1"><a href="#"><img src="../img/hm-et.png" alt="오락 예능"></a></li>
-                        <li class="bm-list bm-pl-2"><a href="#"><img src="../img/hm-ent.png" alt="연예"></a></li>
-                        <li class="bm-list bm-pl-3"><a href="#"><img src="../img/hm-bil.png" alt="빌보드 차트"></a></li>
-                    </ul>
-                    <div class="bimg-wrap"><a href="#"><img src="../img/header_banner.png" alt="홍콩명품 80% 최저가 세일이 적혀있는 이미지" class="bimg"></a></div>
-                </div>
-                <!--banner-end-->
-                <div class="main-menu-wrap">
-                    <div class="mm-bg-left h-100">
-                        <div class="mm-bg-mid h-100">
-                            <div class="mm-bg-right h-100">
-                                <ul class="mm-list-wrap">
-                                    <li class="mm-list m-1 pr-2 p-32">
-                                        <a href="#" class="hover-dp-n"><img src="../img/mm-list-1.png" alt="방송"></a>
-                                        <a href="#" class="hover-mm"><img src="../img/mm-hover-1.png" alt="방송 hover"></a>
-                                        <ul class="mm-inner-wrap">
-                                            <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
-                                            <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
-                                            <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
-                                            <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
-                                            <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="mm-list m-1 p-32">
-                                        <a href="#" class="hover-dp-n"><img src="../img/mm-list-2.png" alt="영화"></a>
-                                        <a href="#" class="hover-mm"><img src="../img/mm-hover-2.png" alt="영화 hover"></a>
-                                        <ul class="mm-inner-wrap">
-                                            <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
-                                            <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
-                                            <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
-                                            <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
-                                            <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="mm-list p-33">
-                                        <a href="#" class="hover-dp-n"><img src="../img/mm-list-3.png" alt="가요"></a>
-                                        <a href="#" class="hover-mm"><img src="../img/mm-hover-3.png" alt="가요 hover"></a>
-                                        <ul class="mm-inner-wrap">
-                                            <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
-                                            <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
-                                            <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
-                                            <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
-                                            <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="mm-list m-7 p-32">
-                                        <a href="#" class="hover-dp-n"><img src="../img/mm-list-4.png" alt="공연"></a>
-                                        <a href="#" class="hover-mm"><img src="../img/mm-hover-4.png" alt="공연 hover"></a>
-                                        <ul class="mm-inner-wrap">
-                                            <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
-                                            <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
-                                            <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
-                                            <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
-                                            <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="mm-list m-7 p-21">
-                                        <a href="#" class="hover-dp-n"><img src="../img/mm-list-5.png" alt="인터뷰"></a>
-                                        <a href="#" class="hover-mm"><img src="../img/mm-hover-5.png" alt="인터뷰 hover"></a>
-                                        <ul class="mm-inner-wrap">
-                                            <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
-                                            <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
-                                            <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
-                                            <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
-                                            <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="mm-list p-33 m-6">
-                                        <a href="#" class="hover-dp-n"><img src="../img/mm-list-6.png" alt="칼럼"></a>
-                                        <a href="#" class="hover-mm"><img src="../img/mm-hover-6.png" alt="칼럼 hover"></a>
-                                        <ul class="mm-inner-wrap">
-                                            <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
-                                            <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
-                                            <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
-                                            <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
-                                            <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="mm-list p-22 m-15 long-wt">
-                                        <a href="#" class="hover-dp-n"><img src="../img/mm-list-7.png" alt="방송융합"></a>
-                                        <a href="#" class="hover-mm"><img src="../img/mm-hover-7.png" alt="방송융합 hover"></a>
-                                        <ul class="mm-inner-wrap">
-                                            <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
-                                            <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
-                                            <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
-                                            <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
-                                            <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="mm-list p-13 m-11 long-wt">
-                                        <a href="#" class="hover-dp-n"><img src="../img/mm-list-8.png" alt="포토&화보"></a>
-                                        <a href="#" class="hover-mm"><img src="../img/mm-hover-8.png" alt="포토&화보 hover"></a>
-                                        <ul class="mm-inner-wrap">
-                                            <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
-                                            <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
-                                            <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
-                                            <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
-                                            <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="mm-list p-30 long-wt">
-                                        <a href="#" class="hover-dp-n"><img src="../img/mm-list-9.png" alt="TV카페"></a>
-                                        <a href="#" class="hover-mm"><img src="../img/mm-hover-9.png" alt="TV카페 hover"></a>
-                                        <ul class="mm-inner-wrap">
-                                            <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
-                                            <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
-                                            <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
-                                            <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
-                                            <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <form action="post">
-                                    <fieldset>
-                                        <div class="mm-input-btn-wrap">
-                                            <div class="mm-input-wrap">
-                                                <input type="text" id="search" name="hm-search">
-                                            </div>
-                                            <button class="search-btn"><img src="../img/search-btn.png" alt="뉴스검색 버튼"></button>
-                                    </fieldset>
-                                    </div>
-                                </form>
+        <input type="checkbox" id="search-icon" name="search-menu-on/off">
+        <input type="checkbox" id="menu-icon" name="slide-menu-on/off">
+            <header id="header-wrap">
+                <!--topmenu-end-->
+                <div class="header-pd-wrap">
+                    <div class="logo-banner-wrap">
+                        <label for="menu-icon" class="menu-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <label for="search-icon" class="search-btn">
+                            <img src="../img/iconmonstr-magnifier-1-240.png" alt="뉴스검색 버튼">
+                        </label>
+                        <h1 id="logo">
+                            <a href="#"><img src="../img/asm7-logo.png" alt="TV-REPORT 방송전문미디어포탈"></a>
+                        </h1>
+                        <div class="ad-bm-list-wrap none-display">
+                            <ul class="bm-list-wrap">
+                                <li class="bm-list"><a href="#"><img src="../img/hm-drama.png" alt="드라마"></a></li>
+                                <li class="bm-list bm-pl-1"><a href="#"><img src="../img/hm-et.png" alt="오락 예능"></a></li>
+                                <li class="bm-list bm-pl-2"><a href="#"><img src="../img/hm-ent.png" alt="연예"></a></li>
+                                <li class="bm-list bm-pl-3"><a href="#"><img src="../img/hm-bil.png" alt="빌보드 차트"></a></li>
+                            </ul>
+                            <div class="bimg-wrap"><a href="#"><img src="../img/header_banner.png" alt="홍콩명품 80% 최저가 세일이 적혀있는 이미지" class="bimg"></a></div>
+                        </div>
+                    </div>
+                    <!--banner-end-->
+                    <div class="main-menu-wrap">
+                        <div class="mm-bg-left h-100">
+                            <div class="mm-bg-mid h-100">
+                                <div class="mm-bg-right h-100">
+                                    <ul class="mm-list-wrap">
+                                        <li class="mm-list m-1 pr-2 p-32">
+                                            <a href="#" class="hover-dp-n"><img src="../img/mm-list-1.png" alt="방송"></a>
+                                            <a href="#" class="hover-mm"><img src="../img/mm-hover-1.png" alt="방송 hover"></a>
+                                            <ul class="mm-inner-wrap">
+                                                <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
+                                                <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
+                                                <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
+                                                <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
+                                                <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="mm-list m-1 p-32">
+                                            <a href="#" class="hover-dp-n"><img src="../img/mm-list-2.png" alt="영화"></a>
+                                            <a href="#" class="hover-mm"><img src="../img/mm-hover-2.png" alt="영화 hover"></a>
+                                            <ul class="mm-inner-wrap">
+                                                <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
+                                                <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
+                                                <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
+                                                <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
+                                                <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="mm-list p-33">
+                                            <a href="#" class="hover-dp-n"><img src="../img/mm-list-3.png" alt="가요"></a>
+                                            <a href="#" class="hover-mm"><img src="../img/mm-hover-3.png" alt="가요 hover"></a>
+                                            <ul class="mm-inner-wrap">
+                                                <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
+                                                <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
+                                                <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
+                                                <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
+                                                <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="mm-list m-7 p-32">
+                                            <a href="#" class="hover-dp-n"><img src="../img/mm-list-4.png" alt="공연"></a>
+                                            <a href="#" class="hover-mm"><img src="../img/mm-hover-4.png" alt="공연 hover"></a>
+                                            <ul class="mm-inner-wrap">
+                                                <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
+                                                <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
+                                                <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
+                                                <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
+                                                <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="mm-list m-7 p-21">
+                                            <a href="#" class="hover-dp-n"><img src="../img/mm-list-5.png" alt="인터뷰"></a>
+                                            <a href="#" class="hover-mm"><img src="../img/mm-hover-5.png" alt="인터뷰 hover"></a>
+                                            <ul class="mm-inner-wrap">
+                                                <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
+                                                <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
+                                                <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
+                                                <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
+                                                <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="mm-list p-33 m-6">
+                                            <a href="#" class="hover-dp-n"><img src="../img/mm-list-6.png" alt="칼럼"></a>
+                                            <a href="#" class="hover-mm"><img src="../img/mm-hover-6.png" alt="칼럼 hover"></a>
+                                            <ul class="mm-inner-wrap">
+                                                <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
+                                                <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
+                                                <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
+                                                <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
+                                                <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="mm-list p-22 m-15 long-wt">
+                                            <a href="#" class="hover-dp-n"><img src="../img/mm-list-7.png" alt="방송융합"></a>
+                                            <a href="#" class="hover-mm"><img src="../img/mm-hover-7.png" alt="방송융합 hover"></a>
+                                            <ul class="mm-inner-wrap">
+                                                <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
+                                                <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
+                                                <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
+                                                <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
+                                                <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="mm-list p-13 m-11 long-wt">
+                                            <a href="#" class="hover-dp-n"><img src="../img/mm-list-8.png" alt="포토&화보"></a>
+                                            <a href="#" class="hover-mm"><img src="../img/mm-hover-8.png" alt="포토&화보 hover"></a>
+                                            <ul class="mm-inner-wrap">
+                                                <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
+                                                <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
+                                                <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
+                                                <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
+                                                <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="mm-list p-30 long-wt">
+                                            <a href="#" class="hover-dp-n"><img src="../img/mm-list-9.png" alt="TV카페"></a>
+                                            <a href="#" class="hover-mm"><img src="../img/mm-hover-9.png" alt="TV카페 hover"></a>
+                                            <ul class="mm-inner-wrap">
+                                                <li class="mm-inner-list mil-1-pd"><a href="#">전체</a></li>
+                                                <li class="mm-inner-list mil-2-pd"><a href="#">방송</a></li>
+                                                <li class="mm-inner-list mil-3-pd"><a href="#">연예</a></li>
+                                                <li class="mm-inner-list mil-4-pd"><a href="#">인터뷰</a></li>
+                                                <li class="mm-inner-list mil-5-pd"><a href="#">칼럽</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <form action="post">
+                                        <fieldset>
+                                            <div class="mm-input-btn-wrap">
+                                                <div class="mm-input-wrap">
+                                                    <input type="text" id="search" name="hm-search">
+                                                </div>
+                                                <button class="search-btn"><img src="../img/search-btn.png" alt="뉴스검색 버튼"></button>
+                                        </fieldset>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </header>
+                </header>
                 <!--main menu end-->
             <div class="contents-wrap">
+                <div class="search-area-768-wrap">
+                    <form action="post">
+                        <div class="search-area-768">
+                            <input type="text" name="search-btn" placeholder="검색할 뉴스">
+                        </div>
+                        <div class="search-right-btn">
+                            <button>
+                                <img src="../img/iconmonstr-magnifier-1-240.png" alt="검색 버튼">
+                            </button>
+                        </div>
+                    </form>
+                    <div class="ad-bm-list-wrap">
+                        <ul class="bm-list-wrap">
+                            <li class="bm-list"><a href="#"><img src="../img/hm-drama.png" alt="드라마"></a></li>
+                            <li class="bm-list bm-pl-1"><a href="#"><img src="../img/hm-et.png" alt="오락 예능"></a></li>
+                            <li class="bm-list bm-pl-2"><a href="#"><img src="../img/hm-ent.png" alt="연예"></a></li>
+                            <li class="bm-list bm-pl-3"><a href="#"><img src="../img/hm-bil.png" alt="빌보드 차트"></a></li>
+                        </ul>
+                        <div class="bimg-wrap-wrapper">
+                            <div class="bimg-wrap"><a href="#"><img src="../img/header_banner.png" alt="홍콩명품 80% 최저가 세일이 적혀있는 이미지" class="bimg"></a></div>
+                            <div class="bimg-wrap"><a href="#"><img src="../img/header_banner.png" alt="홍콩명품 80% 최저가 세일이 적혀있는 이미지" class="bimg"></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu-wrap-768">
+                    <ul class="menu-768-wrap">
+                        <li><a href="#">방송</a></li>
+                        <li><a href="#">영화</a></li>
+                        <li><a href="#">가요</a></li>
+                        <li><a href="#">공연</a></li>
+                        <li><a href="#">인터뷰</a></li>
+                        <li><a href="#">칼럼</a></li>
+                        <li><a href="#">방송융합</a></li>
+                        <li><a href="#">포토&화보</a></li>
+                        <li><a href="#">TV카페</a></li>
+                    </ul>
+                </div>
                 <section class="sect-1">
                     <div class="img-box">
                         <a href="#"></a>
                     </div>
                     <div class="sect-1-text">
                         <h2 id="news-hl"><a href="#">'제빵탁구’ 빨간립스틱 바른 유진, 마침내 악녀</a></h2>
-                        <p><a href="#">제빵왕 김탁구' 속 유경(유진 분)이 악녀로의 변신을 마쳤다. 지난 9일 방송된<br>
-                            2TV 수목드라마 '제빵왕 김탁구' (극본 강은경, 연출 이정섭) 28회에서 마준<br>
+                        <p><a href="#">제빵왕 김탁구' 속 유경(유진 분)이 악녀로의 변신을 마쳤다. 지난 9일 방송된<br class="br">
+                            2TV 수목드라마 '제빵왕 김탁구' (극본 강은경, 연출 이정섭) 28회에서 마준<br class="br">
                             과 웨딩마치를 울린 유경이 택한 건 ...</a>
                         </p>
                         <span>이혜미 기자</span>
@@ -318,7 +370,7 @@
                 </section>
                 <section class="sect-3">
                     <div class="news-section">
-                        <div class="img-box img-90x60"><a href="#"></a></div>
+                        <div class="img-box img-90x60 float-l"><a href="#"></a></div>
                         <div class="sect-3-txt">
                             <h3 class="news-hl fs-14"><a href="#">'뜨형' 충격적 과거 누구냐 넌</a></h3>
                             <p><a href="#">김구라, 방송 중 충격발언 "기저귀 그냥 싸면 돼"</a></p>
@@ -326,7 +378,7 @@
                         </div>
                     </div>
                     <div class="news-section">
-                        <div class="img-box img-90x60"><a href="#"></a></div>
+                        <div class="img-box img-90x60 float-l"><a href="#"></a></div>
                         <div class="sect-3-txt">
                             <h3 class="news-hl fs-14"><a href="#">서인영, 킬힐은 절대 벗지 않아</a></h3>
                             <p><a href="#">'영웅호걸' 결혼적령기 이진, 아직도 통금시간이?</a></p>
@@ -334,7 +386,7 @@
                         </div>
                     </div>
                     <div class="news-section ns-last">
-                        <div class="img-box img-90x60"><a href="#"></a></div>
+                        <div class="img-box img-90x60 float-l"><a href="#"></a></div>
                         <div class="sect-3-txt">
                             <h3 class="news-hl fs-14"><a href="#">서인영, 킬힐은 절대 벗지 않아</a></h3>
                             <p><a href="#">'영웅호걸' 결혼적령기 이진, 아직도 통금시간이?</a></p>
@@ -376,14 +428,14 @@
                     <div class="siv-container">
                         <h4 class="star-interview"><img src="../img/content-box/siv-title.png" alt="star interview"></h4>
                         <div class="news-section-2">
-                            <div class="img-box img-box-nb img-88x65"><a href="#"></a></div>
+                            <div class="img-box img-box-nb img-88x65 float-l"><a href="#"></a></div>
                             <div class="sect-4-txt">
                                 <h3 class="news-hl"><a href="#">남상미 “요즘 소개팅 제의 쏟아져요”</a></h3>
                                 <p><a href="#">[TV리포트 백영미기자]안녕하세요. 오늘 이렇게 만나게되서 반...</a></p>
                             </div>
                         </div>
                         <div class="news-section-2">
-                            <div class="img-box img-box-nb img-88x65"><a href="#"></a></div>
+                            <div class="img-box img-box-nb img-88x65 float-l"><a href="#"></a></div>
                             <div class="sect-4-txt">
                                 <h3 class="news-hl"><a href="#">백지영 "속옷 브랜드 아르시비 론칭했어요"</a></h3>
                                 <p><a href="#">[TV리포트 백영미기자]안녕하세요. 오늘 이렇게 만나게되서 반...</a></p>
@@ -394,14 +446,14 @@
                     <div class="siv-container">
                         <h4 class="star-interview"><img src="../img/content-box/siv-title.png" alt="star interview"></h4>
                         <div class="news-section-2">
-                            <div class="img-box img-box-nb img-88x65"><a href="#"></a></div>
+                            <div class="img-box img-box-nb img-88x65 float-l"><a href="#"></a></div>
                             <div class="sect-4-txt">
                                 <h3 class="news-hl"><a href="#">남상미 “요즘 소개팅 제의 쏟아져요”</a></h3>
                                 <p><a href="#">[TV리포트 백영미기자]안녕하세요. 오늘 이렇게 만나게되서 반...</a></p>
                             </div>
                         </div>
                         <div class="news-section-2">
-                            <div class="img-box img-box-nb img-88x65"><a href="#"></a></div>
+                            <div class="img-box img-box-nb img-88x65 float-l"><a href="#"></a></div>
                             <div class="sect-4-txt">
                                 <h3 class="news-hl"><a href="#">백지영 "속옷 브랜드 아르시비 론칭했어요"</a></h3>
                                 <p><a href="#">[TV리포트 백영미기자]안녕하세요. 오늘 이렇게 만나게되서 반...</a></p>
@@ -654,7 +706,7 @@
                             </div>
                         </address>
                     </div>
-                    <div class="ft-logo-wrap-2 dis-ib">
+                    <div class="ft-logo-wrap-2 dis-ib none-display">
                         <a href="#">
                             <img src="../img/footer/footer-logo-2.png" alt="powered bt wyzmob 주식회사 위즈몹">
                         </a>
