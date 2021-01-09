@@ -19,6 +19,10 @@
     position: relative;
 }
 
+.left-tm > a > span {
+    line-height: 25px;
+}
+
 input[id="menu-icon"] {
     display: none;
 }
@@ -243,6 +247,7 @@ input[id="search-icon"] {
     font-size: 0;
     vertical-align: middle;
     margin-right: 1px;
+    background-color: #ffffff;
     border: 1px solid #004e7e;
 }
 
@@ -254,7 +259,7 @@ input[id="search-icon"] {
     box-sizing: border-box;
 }
 
-.search-btn > img {
+.search-btn-logo > img {
     display: none;
 }
 
