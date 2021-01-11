@@ -373,6 +373,7 @@ input[id="search-icon"] {
 .tap-position > span > a {
     color: #999999;
     font-size: 11px;
+    display: inline-block;
 }
 
 .tap-position > span + span {
@@ -382,9 +383,8 @@ input[id="search-icon"] {
 
 .tap-body {
     width: 260px;
-    height: 158px;
     padding: 18px 17px 0 16px;
-    background: url('../img/content-box/tap-body.png') center top no-repeat;
+    background: url('../img/content-box/tap-body-ext.png') center top repeat-y;
 }
 
 .tap-body > ul > li  {
@@ -449,16 +449,23 @@ input[id="search-icon"] {
     text-align: center;
 }
 
+.tb-p > p > span {
+    position: absolute;
+    left: 8px;
+}
+
 .tb-p > p > span > strong {
     color: #f14922;
 }
 
 .tb-p > p > strong > a {
     color: #333333;
+    text-align: left;
+    padding-left: 48px;
 }
 
 .tb-p > p {
-    padding-left: 8px;
+    position: relative;
 }
 
 .tpv-wrap {
