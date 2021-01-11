@@ -135,11 +135,13 @@
     input[id="search-icon"]:checked ~ .contents-wrap .search-area-768-wrap {
         display: block;
         top: 60px;
+        overflow-x: hidden;
     }
 
     input[id="menu-icon"]:checked ~ .contents-wrap #menu-wrap-768 {
         display: block;
         top: 60px;
+        overflow-x: hidden;
     }
 
     input[id="search-icon"]:checked ~ .contents-wrap .ad-bm-list-wrap {
@@ -459,11 +461,13 @@
     input[id="search-icon"]:checked ~ .contents-wrap .search-area-768-wrap {
         display: block;
         top: 60px;
+        overflow-x: hidden;
     }
 
     input[id="menu-icon"]:checked ~ .contents-wrap #menu-wrap-768 {
         display: block;
         top: 60px;
+        overflow-x: hidden;
     }
 
     input[id="search-icon"]:checked ~ .contents-wrap .ad-bm-list-wrap {
@@ -641,8 +645,6 @@
 
     .tap-header,
     .tap-body {
-        width: 260px;
-        margin: 0 auto;
     }
 
     .br {

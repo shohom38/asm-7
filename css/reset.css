@@ -41,7 +41,8 @@ table {
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
+	display: block;
 }
 
 input { 
