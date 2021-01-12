@@ -353,7 +353,8 @@ input[id="search-icon"] {
     line-height: 7px;
     padding-bottom: 8px;
     margin-bottom: 11px;
-    background: url('../img/content-box/siv-div.png') left bottom repeat-x;
+    background: url('../img/content-box/star-itv-underline.png') left bottom no-repeat, url('../img/content-box/underline-repeat.png') left bottom repeat-x;
+    position: relative;
 }
 
 .tap-header {
@@ -361,7 +362,10 @@ input[id="search-icon"] {
     width: 260px;
     height: 30px;
     padding: 12px 0 0 16px;
-    background: url('../img/content-box/tap-header.png') center top no-repeat;
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    background: url('../img/content-box/tap-header.png') left top no-repeat, #eeeeee;
 }
 
 .tap-position {
@@ -384,7 +388,9 @@ input[id="search-icon"] {
 .tap-body {
     width: 260px;
     padding: 18px 17px 0 16px;
-    background: url('../img/content-box/tap-body-ext.png') center top repeat-y;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
 }
 
 .tap-body > ul > li  {
