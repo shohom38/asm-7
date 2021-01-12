@@ -649,7 +649,7 @@
 
     .tap-header {
         width: 100%;
-        background: url('../img/content-box/tap-header-v2.png') left top repeat-x;
+        background: url('../img/content-box/tab-header.png') left top no-repeat, #eeeeee;
     }
 
     .tap-body {
@@ -674,6 +674,16 @@
 
     .alert-box-con > a {
         top: 1px;
+    }
+
+    address {
+        font-size: 11px;
+        font-style: normal;
+        color: #9f9f9f;
+    }
+
+    .address + .copyright {
+        margin-top: 5px;
     }
 
 }
